@@ -13,7 +13,7 @@ RUN apt-get update -q \
       patch
 
 # Copy assets
-COPY RELEASE /
+#COPY RELEASE /
 COPY assets/ /assets/
 RUN /assets/setup
 
